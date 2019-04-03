@@ -4,6 +4,7 @@ author: "author"
 date: "2 abril de 2019"
 output:
   html_document: default
+  pdf_document: default
   word_document: default
 ---
 
@@ -32,3 +33,11 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+### insert tables
+
+```{r}
+knitr::kable(head(cars), caption = "Top 6 rows of the dataset cars")
+```
+
