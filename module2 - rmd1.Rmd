@@ -48,6 +48,17 @@ here is an image inserted
 
 ![sunstar](sunstar.png)
 
+
+
+```{r echo=FALSE}
+
+library("htmltools")
+library("vembedr")
+embed_youtube("1-vcErOPofQ")
+
+```
+
+
 here's a logo inserted
 
 ![r logo](https://www.r-project.org/logo/Rlogo.svg)
