@@ -4,8 +4,8 @@ author: "author"
 date: "2 abril de 2019"
 output:
   html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -41,3 +41,26 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 knitr::kable(head(cars), caption = "Top 6 rows of the dataset cars")
 ```
 
+
+### insert images
+
+here is an image inserted
+
+![sunstar](sunstar.png)
+
+here's a logo inserted
+
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+
+![video](sunstar/sunstar.mp4)
+![gif](sunstar/sunstar.gif)
+
+
+### insert a footnote
+
+here is a footnote reference [^1] and another [^longnote]
+
+[^1]: Here is the footnote
+[^longnote]: Here's one with multiple blocks
+
+here is an inline footnote ^[inlines are easier]
